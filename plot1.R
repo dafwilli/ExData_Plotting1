@@ -18,3 +18,5 @@ library("lubridate")
 # Reduce the data set to only data from the dates 2007-02-01 and 2007-02-02
 data <- filter (data, Date == ymd("2007-02-01") | Date == ymd("2007-02-02"))
 
+# change this file
+
