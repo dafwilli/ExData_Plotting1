@@ -17,7 +17,7 @@ data <- filter (data, Date == ymd("2007-02-01") | Date == ymd("2007-02-02"))
 # Create the x data by adding the time to the date
 x <- data$Date + hms(data$Time)
 
-# Create Plot #1 - histogram of Global Active Power
+# Create Plot #2
 png(filename = "plot2.png")
 plot(x,data$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
